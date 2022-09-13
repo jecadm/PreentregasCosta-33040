@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+body {
+    background-color: rgb(190, 190, 190);
+
+}
+
+.div-princ {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.header-01 div {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+
+
+}
+
+.header-01 div span {
+
+    padding-left: 5%;
+
+
+}
+
+.header-01 div div {
+
+    border-top: 5px solid rgb(34, 34, 34);
+    border-bottom: 5px solid rgb(34, 34, 34);
+
+}
+
+.header-01 div div h1 {
+    background-color: rgb(248, 248, 248);
+    padding-inline-start: 33%;
+
+
+
+
+}
+
+.header-01 div div p {
+    background-color: rgb(248, 248, 248);
+    font-size: 20px;
+    padding-inline-start: 33%;
+
+
+
+
+}
+
+/* section generalgris y  nav bar menu lateral */
+.sect-nav-menu {
+
+
+    background-color: rgb(190, 190, 190);
+
+    width: 100%;
+
+
+}
+
+/*  MENU LATERAL  insq NAV BAR */
+.sidenav {
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    padding-top: 190px;
+    left: 0px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    height: 100%;
+    border-left: 2px solid rgb(34, 34, 34);
+    border-right: 2px solid rgb(34, 34, 34);
+
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2196F3;
+    display: block;
+
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.sect-nav-menu nav {
+    align-items: flex-start;
+}
+/*  MENU CENTRAL */
+.div-sect-01 {
+    background-color: rgb(156, 155, 155);
+    padding-inline-start: center;
+    font-size: 28px;
+    padding-inline-start: 33%;
+    padding-top: 25px;
+
+
+}
+
+
+/* Bloque marca */
+
+.bloque-sect {
+  height: 50vh; 
+    /* margin: 5%; */
+    /*   margin-left: 20%; */
+
+    
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;  */
+
+}
+
+.bloque-m-{
+
+   
+   flex-direction: row;
+ /*    padding-inline-start: 15%;
+    padding-top: 5%;
+ */
+
+
+}
+
+/* menu central links */
+.boxM {
+    background-color: rgb(121, 143, 135);
+/*     width: 50%;
+    height: 50%; */
+    /* margin-top: -20%; */
+    /*height: auto; si esta puesto abajo overflow y height  esta fijo se genera el scroll*/
+    /*margin-top: auto;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin: 15px 15px 40px 40px; /* cuatro lados de aguja de reloj*/
+    /*   margin: center;  */
+    /* toma el primer numero para top y bottom  y el segundo valos para derecha e isquierda*/
+    border: 10px solid salmon;
+    padding: 15px 15px;
+    border-top-color: slategray;
+    border-bottom-color: black;
+    /* overflow: auto; */
+    /*margin-left: 15vh;  Same width as the sidebar + left position in px */
+    /* Increased text to enable scrolling */
+    /*    font-size: 28px ;  */
+    /*    width:25%;
+    height:0;
+    padding-top:25%; */
+    /*     position:relative; */
+    /*    margin-left: 140px;  */
+
+
+
+
+}
+
+
+#lol{
+    font-size: 25px;
+    margin-bottom: 35px;
+    
+
+}
+
+.boxM-ol li{
+    font-size: 25px;
+    margin-bottom: 35px;
+    color: #2196F3;
+    font-size: 25px;
+
+}
+
+/* barra lateral derecha */
+.sect-left nav {
+    width: 200px;
+    float: right;
+    z-index: 0;
+    padding-top: 190px;
+    left: 0px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 18px 0;
+    height: 100vh;
+    border-left: 2px solid rgb(34, 34, 34);
+    border-right: 2px solid rgb(34, 34, 34);
+
+}
+
+.sect-left nav div {
+
+    margin-left: 2%;
+    
+    font-size: 12px;
+   
+    padding: 0px 10px;
+
+
+}
+
+.sect-left nav h2 {
+    color: #064579;
+    font-size: 28px;
+}
+
+.sect-left nav div a {
+    margin-top: 20%;
+    margin-bottom: 15%;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2196F3;
+    display: block;
+
+}
+
+/* Bloque y linea*/
+.old{
+    margin: 0;
+/* .bloque-marcas h2 {
+        background-color: tomato;
+        display: inline;
+} */
+/* .bloque-marcas p {
+    background-color: rgb(25, 163, 182);
+        display: inline;
+} */
+/* .bloque-marcas span {
+
+    background-color: rgb(25, 163, 182);
+    display: inline;
+    margin: 25;
+} */
+/* .bloque-marcas h1 {
+
+    margin-bottom: 35px; 
+}*/
+/* .bloque-marcas h1 em {
+    color: brown;
+ 
+}*/
+/* .boxPositionRel{
+
+    border: 5px solid coral;
+
+}
+.boxPositionAbs{
+    width: 20%;
+    height: 50px;
+    border: 5px solid rgb(252, 220, 42);
+}
+
+.boxPositionRel{  
+ 
+    background-color:rgb(7, 161, 20);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.boxPositionRel p {
+
+     margin-bottom: 10px;
+    width: 20%;
+    height: 50px;
+ } */}
+ iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+footer {
+
+
+    background-color: black;
+
+    width: 100%;
+    height: 50px;
+    color: white;
+    float: inline-end;
+}
+
+footer address {
+    margin-bottom: 1px;
+    color: #2196F3;
+    align-items: stretch;
+
+
+}
